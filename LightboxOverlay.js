@@ -4,7 +4,7 @@ import { Animated, Dimensions, Modal, PanResponder, Platform, StatusBar, StyleSh
 
 const WINDOW_HEIGHT = Dimensions.get('window').height;
 const WINDOW_WIDTH = Dimensions.get('window').width;
-const DRAG_DISMISS_THRESHOLD = 150;
+const DRAG_DISMISS_THRESHOLD = 25;
 const isIOS = Platform.OS === 'ios';
 
 const styles = StyleSheet.create({
